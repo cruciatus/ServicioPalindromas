@@ -4,7 +4,7 @@ import wsgiref.simple_server
 from os.path import abspath,dirname,join
 
 scriptdir = dirname(abspath(__file__))
-service_modules = ['calculadora','palindromas','alumnos','materias','alumat','mat_estudiantes']
+service_modules = ['calculadora','palindromas']
 
 # Create the WSGI Application
 application = LadonWSGIApplication(
